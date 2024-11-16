@@ -10,7 +10,8 @@ file_path = 'rekomendasi.xlsx'
 recommendations_df = pd.read_excel(file_path)
 
 # Set up the main title and subtitle
-st.title("NurstressAI : Aplikasi Web Prediksi dan Penanganan Stres Perawat Berdasarkan Aspek Fisiologis dan Tipe Kepribadian Myers-Briggs (MBTI)")
+st.title("NurstressAI")
+st.subheader("Aplikasi Web Prediksi dan Penanganan Stres Perawat Berdasarkan Aspek Fisiologis dan Tipe Kepribadian Myers-Briggs (MBTI)")
 st.markdown("Prediksi tingkat stres untuk perawat berdasarkan input **EDA**, **HR**, dan **TEMP**, serta dapatkan rekomendasi berdasarkan tipe kepribadian!")
 
 # Main input section
